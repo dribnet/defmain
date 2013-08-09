@@ -1,4 +1,4 @@
-(defproject net.drib/defmain "0.1.0"
+(defproject net.drib/defmain "0.2.0-SNAPSHOT"
   :description "defmain - java main entry points made easy"
   :url "https://github.com/dribnet/defmain"
   :license {:name "Eclipse Public License"

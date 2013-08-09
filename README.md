@@ -2,7 +2,7 @@
 
 A Clojure library designed to make main entry points easy.
 
-Code shamelessly pulled from [cascalog core](http://nathanmarz.github.io/cascalog/cascalog.api.html#var-defmain). This is just meant to be a version with a much lighter dependecy foodprint.
+Code shamelessly pulled from [cascalog core](http://nathanmarz.github.io/cascalog/cascalog.api.html#var-defmain). This is just meant to be a version with a much lighter dependecy footprint.
 
 ## Usage
 
@@ -21,7 +21,7 @@ Hello world!
 
 ## License
 
-Copyright © 2013 me and/or
+Copyright © 2013 Tom White and/or
 
 Copyright (c) 2010-2011 Nathan Marz. All Rights Reserved.
 
