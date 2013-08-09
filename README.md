@@ -6,11 +6,22 @@ Code shamelessly pulled from [cascalog core](http://nathanmarz.github.io/cascalo
 
 ## Usage
 
+Add these entries to your `project.clj`:
+
+```clj
+  :dependencies [[net.drib/defmain "0.1.0"]]
+  :aot [my.ns]
+```
+
+then add this to your code
+
 ```clj
 (defmain hello
   [greetee]
   (println (str "Hello " greetee "!")))
 ```
+
+and run via lein or java
 
 ```
 $ lein run -m my.ns.hello world
