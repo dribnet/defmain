@@ -16,6 +16,8 @@ Add these entries to your `project.clj`:
 then add this to your code
 
 ```clj
+(:require [defmain.core :refer [defmain]])
+
 (defmain hello
   [greetee]
   (println (str "Hello " greetee "!")))
